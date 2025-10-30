@@ -5,7 +5,7 @@ namespace Tiuiu.UsoltsevGP.Sprint3.Task4.V12.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double res = 0;
+            double res = 1;
             for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 0)
