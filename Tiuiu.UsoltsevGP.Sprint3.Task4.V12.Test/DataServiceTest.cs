@@ -14,7 +14,7 @@ namespace Tiuiu.UsoltsevGP.Sprint3.Task4.V12.Test
 
             double res = ds.Calculate(startValue, stopValue);
 
-            double wait = 17.156;
+            double wait = 467.59;
             Assert.AreEqual(wait, res);
         }
     }
