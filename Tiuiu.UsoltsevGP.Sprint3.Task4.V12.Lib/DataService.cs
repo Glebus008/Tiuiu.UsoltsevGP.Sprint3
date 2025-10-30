@@ -14,7 +14,7 @@ namespace Tiuiu.UsoltsevGP.Sprint3.Task4.V12.Lib
                 }
                 else
                 {
-                    res += x / (x + Math.Sin(x)) + 2.5;
+                    res *= x / (x + Math.Sin(x)) + 2.5;
                 }
             }
             return Math.Round(res, 3);
