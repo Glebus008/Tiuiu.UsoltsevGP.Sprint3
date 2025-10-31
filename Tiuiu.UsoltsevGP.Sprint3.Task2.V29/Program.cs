@@ -1,5 +1,5 @@
 ﻿using Tiuiu.UsoltsevGP.Sprint3.Task2.V29.Lib;
-namespace Tyuiu.UsoltsevGP.Sprint3.Task1.V24
+namespace Tyuiu.UsoltsevGP.Sprint3.Task2.V29
 {
     class Program
     {

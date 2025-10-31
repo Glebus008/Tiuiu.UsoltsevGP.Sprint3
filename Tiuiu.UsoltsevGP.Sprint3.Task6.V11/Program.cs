@@ -1,5 +1,5 @@
-﻿using Tiuiu.UsoltsevGP.Sprint3.Task3.V19.Lib;
-namespace Tyuiu.UsoltsevGP.Sprint3.Task3.V19
+﻿using Tiuiu.UsoltsevGP.Sprint3.Task6.V11.Lib;
+namespace Tyuiu.UsoltsevGP.Sprint3.Task6.V11
 {
     class Program
     {
@@ -9,32 +9,30 @@ namespace Tyuiu.UsoltsevGP.Sprint3.Task3.V19
             Console.Title = "Спринт #3 | Выполнил: Усольцев Г. П. | РППб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Оператор цикла foreach                                            *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #19                                                             *");
+            Console.WriteLine("* Тема: Обработка целочисленной информации                                *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #11                                                             *");
             Console.WriteLine("* Выполнил: Усольцев Глеб Павлович | РППб-25-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Используя цикл foreach заменить буквы x на цифру 2                      *");
-            Console.WriteLine("* в строке: sxxrrg x vfrx                                                 *");
+            Console.WriteLine("* Напишите программу, которая ищет среди целых чисел, принадлежащих       *");
+            Console.WriteLine("* числовому отрезку [10, 19] количество всех делителей больше 10          *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string value = "sxxrrg x vfrx";
-            char replaceable = 'x';
-            char replacement = '2';
+            int startValue = 10;
+            int stopValue = 19;
 
-            Console.WriteLine("Исходная строка = " + value);
-            Console.WriteLine("Заменяемый символ = " + replaceable);
-            Console.WriteLine("Заменяющий символ = " + replacement);
+            Console.WriteLine("Начало отрезка = " + startValue);
+            Console.WriteLine("Конец отрезка = " + stopValue);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Итоговая строка = " + ds.ReplaceCharOnNum(value, replaceable, replacement));
+            Console.WriteLine("Сумма делителей = " + ds.GetSumTheDivisors(startValue, stopValue));
             Console.ReadKey();
         }
     }
