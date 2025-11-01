@@ -9,7 +9,7 @@ namespace Tiuiu.UsoltsevGP.Sprint3.Task7.V4.Test
         {
             DataService ds = new DataService();
             int startValue = -5;
-            int stopValue = -5;
+            int stopValue = 5;
 
             int len = stopValue - startValue + 1;
 
